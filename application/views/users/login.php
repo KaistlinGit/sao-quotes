@@ -2,7 +2,7 @@
 
 <div>
     Pseudo : 
-    <?php echo Form::input('username'/*, $values['username']*/) ?>
+    <?php echo Form::input('username', $values['username']) ?>
 </div>
 
 <div>
@@ -10,6 +10,11 @@
     <?php echo Form::password('password', '') ?>
 </div>
 
-<?php echo Form::submit(NULL, 'Se connecter'); ?> 
+<div class="error">
+	<?php echo $error ?>
+</div>
+
+<?php echo Form::submit("submitForm", 'Se connecter'); ?> 
+<?php echo Form::submit("submitForm", "Inscription"); ?> 
 
 <?php echo Form::close() ?>
