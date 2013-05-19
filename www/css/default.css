@@ -40,3 +40,32 @@ a, a:visited {
 	width: 900px;
 	margin: auto;
 }
+
+/*UL*/
+
+.panel-wrapper {
+	width: 900px;
+	margin: auto;
+}
+
+.panel-logo {
+	width: 500px;
+	display: inline-block;
+}
+
+.panel-login {
+	width: 396px;
+	text-align: right;
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	width: 100px;
+}

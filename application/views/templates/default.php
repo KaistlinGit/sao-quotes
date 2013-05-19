@@ -2,7 +2,7 @@
    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
 <head>
-	<title>TCG Manager</title>
+	<title>SAO Quote</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<?php 
 		// CSS
@@ -21,6 +21,14 @@
 <html>
     <head></head>
     <body>
-        <div><?php echo $content ?></div>
+		<div class="global">
+			<div class="panel">
+				<?php echo View::factory('elements/panel') ?>
+			</div>
+
+	        <div class="site">
+	    		<?php echo $content ?>
+	    	</div>
+    	</div>
     </body>
 </html>
