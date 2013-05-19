@@ -7,6 +7,7 @@ class Controller_User extends Controller_Template {
         $this->template->content = View::factory('users/index')
             ->set('users', $users);
     }
+
 	/**
 	 * Vue connexion
 	 * ACTION: connexion
@@ -34,6 +35,11 @@ class Controller_User extends Controller_Template {
 	    $this->template->content = View::factory('users/login')
 	        ->bind('values', $_POST);
 	}
+
+    /**
+     * Vue enregistrement
+     * ACTION: enregistrement
+     */
     public function action_register() {
         $user = ORM::factory('user');
 
