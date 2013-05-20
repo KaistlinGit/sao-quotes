@@ -1,4 +1,5 @@
 <?php
+
 class Model_User extends Model_Auth_User {
 	/**
 	 * Règles par défaut du modèle supprimées
@@ -25,6 +26,7 @@ class Model_User extends Model_Auth_User {
 	        // Actions
 	    }
 	}
+
 	public function register($post)
 	{
 	    $this->username     = $post['username'];

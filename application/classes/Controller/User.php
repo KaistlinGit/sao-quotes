@@ -39,6 +39,7 @@ class Controller_User extends Controller_Template {
 	            $user = Auth::instance()->get_user();
 
 	            // Actions
+                //var_dump($user); 
 
 	            // Redirection
 	            HTTP::redirect('user/index');

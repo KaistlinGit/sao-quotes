@@ -7,6 +7,7 @@ if ($u === null): ?>
 		<ul>
 			<li class="h1title"><?php echo HTML::anchor('page/home', 'Index') ?></li>
 			<li class="h1title"><?php echo HTML::anchor('user/login', 'Connexion') ?></li>
+			<li class="h1title"><?php echo HTML::anchor('user/register', 'Inscription') ?></li>
 		</ul>
 	</div>
 	<div class="clearleft"></div>

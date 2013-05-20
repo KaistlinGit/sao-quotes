@@ -15,6 +15,5 @@
 </div>
 
 <?php echo Form::submit("submitForm", 'Se connecter'); ?> 
-<?php echo Form::submit("submitForm", "Inscription"); ?> 
 
 <?php echo Form::close() ?>

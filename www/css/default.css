@@ -31,7 +31,7 @@ a, a:visited {
 
 .panel {
 	color: #fff;
-	background-color: #999;
+	background-color: #447;
 	height: 20px;
 	text-transform: uppercase;
 }
@@ -44,7 +44,7 @@ a, a:visited {
 /*UL*/
 
 .panel-wrapper {
-	width: 900px;
+	width: 800px;
 	margin: auto;
 }
 
@@ -55,7 +55,7 @@ a, a:visited {
 
 .panel-login {
 	width: 396px;
-	text-align: right;
+	text-align: center;
 	display: inline-block;
 }
 
@@ -67,5 +67,6 @@ ul {
 
 ul li {
 	display: inline-block;
-	width: 100px;
+	text-align: center;
+	width: 150px;
 }

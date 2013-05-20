@@ -22,7 +22,6 @@
 
 <div>
     <?php echo Form::submit("submitForm", "S'inscrire") ?> 
-    <?php echo Form::submit("submitForm", 'Se connecter'); ?> 
 </div>
 
 <?php echo Form::close() ?>
